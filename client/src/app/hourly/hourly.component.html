@@ -1,0 +1,150 @@
+<app-header></app-header>
+<div class="cityHourlyContianer">
+
+  <div class="cityHourly" *ngFor="let meteo of meteos">
+    <!-- <div class="city" *ngFor="let i of weather"> -->
+    <p>Derniere observation: {{meteo.current_condition[0].localObsDateTime}}</p>
+    <p><span class="bold">Heure:</span> {{meteo.weather[0].hourly[0].time}}</p>
+    <p><span class="bold">Temperature:</span> {{meteo.weather[0].hourly[0].tempC}} C (Res.
+      {{meteo.weather[0].hourly[0].FeelsLikeC}})
+    </p>
+    <p><span class="bold">Condition:</span> {{meteo.weather[0].hourly[0].weatherDesc[0].value}}</p>
+    <p><span class="bold">Vents:</span> {{meteo.weather[0].hourly[0].windspeedKmph}} km/h
+      {{meteo.weather[0].hourly[0].winddir16Point}}
+    </p>
+    <p><span class="bold">Visibilte:</span> {{meteo.weather[0].hourly[0].visibility}}Km</p>
+    <p><span class="bold">UV:</span> {{meteo.weather[0].hourly[0].uvIndex}}</p>
+    <p><span class="bold">Humidite:</span> {{meteo.weather[0].hourly[0].humidity}}%</p>
+    <p><span class="bold">Precipations:</span> {{meteo.weather[0].hourly[0].precipInches}} mm</p>
+    <!-- </div> -->
+  </div>
+
+  <div class="cityHourly" *ngFor="let meteo of meteos">
+    <!-- <div class="city" *ngFor="let i of weather"> -->
+    <p>Derniere observation: {{meteo.current_condition[0].localObsDateTime}}</p>
+    <p><span class="bold">Heure:</span> {{meteo.weather[0].hourly[1].time}}</p>
+    <p><span class="bold">Temperature:</span> {{meteo.weather[0].hourly[1].tempC}} C (Res.
+      {{meteo.weather[0].hourly[1].FeelsLikeC}})
+    </p>
+    <p><span class="bold">Condition:</span> {{meteo.weather[0].hourly[1].weatherDesc[0].value}}</p>
+    <p><span class="bold">Vents:</span> {{meteo.weather[0].hourly[1].windspeedKmph}} km/h
+      {{meteo.weather[0].hourly[1].winddir16Point}}
+    </p>
+    <p><span class="bold">Visibilte:</span> {{meteo.weather[0].hourly[1].visibility}}Km</p>
+    <p><span class="bold">UV:</span> {{meteo.weather[0].hourly[1].uvIndex}}</p>
+    <p><span class="bold">Humidite:</span> {{meteo.weather[0].hourly[1].humidity}}%</p>
+    <p><span class="bold">Precipations:</span> {{meteo.weather[0].hourly[1].precipInches}} mm</p>
+    <!-- </div> -->
+  </div>
+
+  <div class="cityHourly" *ngFor="let meteo of meteos">
+    <!-- <div class="city" *ngFor="let i of weather"> -->
+    <p>Derniere observation: {{meteo.current_condition[0].localObsDateTime}}</p>
+    <p><span class="bold">Heure:</span> {{meteo.weather[0].hourly[2].time}}</p>
+    <p><span class="bold">Temperature:</span> {{meteo.weather[0].hourly[2].tempC}} C (Res.
+      {{meteo.weather[0].hourly[2].FeelsLikeC}})
+    </p>
+    <p><span class="bold">Condition:</span> {{meteo.weather[0].hourly[2].weatherDesc[0].value}}</p>
+    <p><span class="bold">Vents:</span> {{meteo.weather[0].hourly[2].windspeedKmph}} km/h
+      {{meteo.weather[0].hourly[2].winddir16Point}}
+    </p>
+    <p><span class="bold">Visibilte:</span> {{meteo.weather[0].hourly[2].visibility}}Km</p>
+    <p><span class="bold">UV:</span> {{meteo.weather[0].hourly[2].uvIndex}}</p>
+    <p><span class="bold">Humidite:</span> {{meteo.weather[0].hourly[2].humidity}}%</p>
+    <p><span class="bold">Precipations:</span> {{meteo.weather[0].hourly[2].precipInches}} mm</p>
+    <!-- </div> -->
+  </div>
+
+
+  <div class="cityHourly" *ngFor="let meteo of meteos">
+    <!-- <div class="city" *ngFor="let i of weather"> -->
+    <p>Derniere observation: {{meteo.current_condition[0].localObsDateTime}}</p>
+    <p><span class="bold">Heure:</span> {{meteo.weather[0].hourly[3].time}}</p>
+    <p><span class="bold">Temperature:</span> {{meteo.weather[0].hourly[3].tempC}} C (Res.
+      {{meteo.weather[0].hourly[1].FeelsLikeC}})
+    </p>
+    <p><span class="bold">Condition:</span> {{meteo.weather[0].hourly[3].weatherDesc[0].value}}</p>
+    <p><span class="bold">Vents:</span> {{meteo.weather[0].hourly[3].windspeedKmph}} km/h
+      {{meteo.weather[0].hourly[3].winddir16Point}}
+    </p>
+    <p><span class="bold">Visibilte:</span> {{meteo.weather[0].hourly[3].visibility}}Km</p>
+    <p><span class="bold">UV:</span> {{meteo.weather[0].hourly[3].uvIndex}}</p>
+    <p><span class="bold">Humidite:</span> {{meteo.weather[0].hourly[3].humidity}}%</p>
+    <p><span class="bold">Precipations:</span> {{meteo.weather[0].hourly[3].precipInches}} mm</p>
+    <!-- </div> -->
+  </div>
+
+  <div class="cityHourly" *ngFor="let meteo of meteos">
+    <!-- <div class="city" *ngFor="let i of weather"> -->
+    <p>Derniere observation: {{meteo.current_condition[0].localObsDateTime}}</p>
+    <p><span class="bold">Heure:</span> {{meteo.weather[0].hourly[4].time}}</p>
+    <p><span class="bold">Temperature:</span> {{meteo.weather[0].hourly[4].tempC}} C (Res.
+      {{meteo.weather[0].hourly[4].FeelsLikeC}})
+    </p>
+    <p><span class="bold">Condition:</span> {{meteo.weather[0].hourly[4].weatherDesc[0].value}}</p>
+    <p><span class="bold">Vents:</span> {{meteo.weather[0].hourly[4].windspeedKmph}} km/h
+      {{meteo.weather[0].hourly[4].winddir16Point}}
+    </p>
+    <p><span class="bold">Visibilte:</span> {{meteo.weather[0].hourly[4].visibility}}Km</p>
+    <p><span class="bold">UV:</span> {{meteo.weather[0].hourly[4].uvIndex}}</p>
+    <p><span class="bold">Humidite:</span> {{meteo.weather[0].hourly[4].humidity}}%</p>
+    <p><span class="bold">Precipations:</span> {{meteo.weather[0].hourly[4].precipInches}} mm</p>
+    <!-- </div> -->
+  </div>
+
+  <div class="cityHourly" *ngFor="let meteo of meteos">
+    <!-- <div class="city" *ngFor="let i of weather"> -->
+    <p>Derniere observation: {{meteo.current_condition[0].localObsDateTime}}</p>
+    <p><span class="bold">Heure:</span> {{meteo.weather[0].hourly[5].time}}</p>
+    <p><span class="bold">Temperature:</span> {{meteo.weather[0].hourly[5].tempC}} C (Res.
+      {{meteo.weather[0].hourly[5].FeelsLikeC}})
+    </p>
+    <p><span class="bold">Condition:</span> {{meteo.weather[0].hourly[5].weatherDesc[0].value}}</p>
+    <p><span class="bold">Vents:</span> {{meteo.weather[0].hourly[5].windspeedKmph}} km/h
+      {{meteo.weather[0].hourly[5].winddir16Point}}
+    </p>
+    <p><span class="bold">Visibilte:</span> {{meteo.weather[0].hourly[5].visibility}}Km</p>
+    <p><span class="bold">UV:</span> {{meteo.weather[0].hourly[5].uvIndex}}</p>
+    <p><span class="bold">Humidite:</span> {{meteo.weather[0].hourly[5].humidity}}%</p>
+    <p><span class="bold">Precipations:</span> {{meteo.weather[0].hourly[5].precipInches}} mm</p>
+    <!-- </div> -->
+  </div>
+
+  <div class="cityHourly" *ngFor=" let meteo of meteos">
+    <!-- <div class="city" *ngFor="let i of weather"> -->
+    <p>Derniere observation: {{meteo.current_condition[0].localObsDateTime}}</p>
+    <p><span class="bold">Heure:</span> {{meteo.weather[0].hourly[6].time}}</p>
+    <p><span class="bold">Temperature:</span> {{meteo.weather[0].hourly[6].tempC}} C (Res.
+      {{meteo.weather[0].hourly[6].FeelsLikeC}})
+    </p>
+    <p><span class="bold">Condition:</span> {{meteo.weather[0].hourly[6].weatherDesc[0].value}}</p>
+    <p><span class="bold">Vents:</span> {{meteo.weather[0].hourly[6].windspeedKmph}} km/h
+      {{meteo.weather[0].hourly[6].winddir16Point}}
+    </p>
+    <p><span class="bold">Visibilte:</span> {{meteo.weather[0].hourly[6].visibility}}Km</p>
+    <p><span class="bold">UV:</span> {{meteo.weather[0].hourly[6].uvIndex}}</p>
+    <p><span class="bold">Humidite:</span> {{meteo.weather[0].hourly[6].humidity}}%</p>
+    <p><span class="bold">Precipations:</span> {{meteo.weather[0].hourly[6].precipInches}} mm</p>
+    <!-- </div> -->
+  </div>
+
+  <div class="cityHourly" *ngFor="let meteo of meteos">
+    <!-- <div class="city" *ngFor="let i of weather"> -->
+    <p>Derniere observation: {{meteo.current_condition[0].localObsDateTime}}</p>
+    <p><span class="bold">Heure:</span> {{meteo.weather[0].hourly[7].time}}</p>
+    <p><span class="bold">Temperature:</span> {{meteo.weather[0].hourly[7].tempC}} C (Res.
+      {{meteo.weather[0].hourly[7].FeelsLikeC}})
+    </p>
+    <p><span class="bold">Condition:</span> {{meteo.weather[0].hourly[7].weatherDesc[0].value}}</p>
+    <p><span class="bold">Vents:</span> {{meteo.weather[0].hourly[7].windspeedKmph}} km/h
+      {{meteo.weather[0].hourly[7].winddir16Point}}
+    </p>
+    <p><span class="bold">Visibilte:</span> {{meteo.weather[0].hourly[7].visibility}}Km</p>
+    <p><span class="bold">UV:</span> {{meteo.weather[0].hourly[7].uvIndex}}</p>
+    <p><span class="bold">Humidite:</span> {{meteo.weather[0].hourly[7].humidity}}%</p>
+    <p><span class="bold">Precipations:</span> {{meteo.weather[0].hourly[7].precipInches}} mm</p>
+    <!-- </div> -->
+  </div>
+
+
+</div>

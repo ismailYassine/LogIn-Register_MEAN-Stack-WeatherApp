@@ -1,0 +1,21 @@
+<header>
+    <!-- {{!-- //header welcome area --}} -->
+    <div class="nav_bar">
+        <a routerLink="/weather"><img src="/assets/logo.png" style="width: 50px;"></a>
+
+        <!-- <form #authForm="ngForm"> -->
+        <div>
+            <input [(ngModel)]="location" class="search" name="cities" placeholder="Entrer le nom d'une ville">
+            <button class="button" type="submit" (click)="updateLocation()">Trouver</button>
+        </div>
+        <!-- </form> -->
+
+    </div>
+    <!-- {{!-- header nav area --}} -->
+    <nav class="nav_nav">
+        <a routerLink="/weather">[Condition actuelle]</a>
+        <a routerLink="/hourly">[Prochaines heures]</a>
+        <a routerLink="/prochainjour">[Prochain jour]</a>
+        <a routerLink="/astronomy">[Astronomie]</a>
+    </nav>
+</header>

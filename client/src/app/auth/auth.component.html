@@ -1,0 +1,20 @@
+<div class="contiainerForm">
+  <div class="formContainer">
+    <img src="/assets/logo.png" alt="">
+
+    <form #authForm="ngForm">
+      <h1>Wiki meteo</h1>
+
+      <p>[-Veillez vous connecter-]</p>
+
+      <input name="username" type="text" placeholder="Nom utilisateur" required ngModel>
+      <input name="password" type="password" placeholder="Mot de passe" required ngModel>
+      <div class="button">
+      <button (click)="login(authForm)" [disabled]="!authForm.valid">connexion</button>
+      <button [disabled]="!authForm.valid" (click)="signup(authForm)">inscription</button>
+    </div>
+    </form>
+  </div>
+  <p>Wiki meteo inc, 2022</p>
+
+</div>

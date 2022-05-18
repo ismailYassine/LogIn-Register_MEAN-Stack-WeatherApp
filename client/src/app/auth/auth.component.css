@@ -1,0 +1,92 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(255, 255, 255);
+}
+
+.contiainerForm {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+
+}
+
+p {
+  color: rgb(136, 136, 136);
+  font-size: 0.7em;
+  margin-top: 5%;
+  font-weight: normal;
+}
+
+.formContainer {
+ width: 20%;
+ margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  width: 70px;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+
+}
+
+h1 {
+  margin: auto;
+  font-size: 0.8em;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+form p {
+  margin: auto;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+
+input {
+  border: 1px solid rgb(236, 236, 236);
+  outline: none;
+  margin-bottom: 2%;
+  height: 35px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: rgb(204, 204, 204);
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: rgb(104, 225, 255);
+  border: 0px;
+  height: 30px;
+  width: 49%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+button:focus {
+  border: 1px solid green;
+}

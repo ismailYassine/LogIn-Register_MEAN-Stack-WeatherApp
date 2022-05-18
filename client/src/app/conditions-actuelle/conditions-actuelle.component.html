@@ -1,0 +1,22 @@
+<app-header></app-header>
+<div class="citiesContainer">
+  <div class="city" *ngFor="let meteo of meteos">
+    
+    <h1>{{meteo.nearest_area[0].areaName[0].value}},
+      {{meteo.nearest_area[0].region[0].value}},
+      {{meteo.nearest_area[0].country[0].value}}</h1>
+
+    <p><span class="bold">Temperature:</span> {{meteo.current_condition[0].temp_C}} C (Res.
+      {{meteo.current_condition[0].FeelsLikeC}})
+    </p>
+    <p><span class="bold">Condition:</span> {{meteo.current_condition[0].weatherDesc[0].value}}</p>
+    <p><span class="bold">Vents:</span> {{meteo.current_condition[0].windspeedKmph}} km/h
+      {{meteo.current_condition[0].winddir16Point}}
+    </p>
+    <p><span class="bold">Visibilte:</span> {{meteo.current_condition[0].visibility}}Km</p>
+    <p><span class="bold">UV:</span> {{meteo.current_condition[0].uvIndex}}</p>
+    <p><span class="bold">Humidite:</span> {{meteo.current_condition[0].humidity}}%</p>
+    <p><span class="bold">Precipations:</span> {{meteo.current_condition[0].precipInches}} mm</p>
+    <p>Derniere observation: {{meteo.current_condition[0].localObsDateTime}}</p>
+  </div>
+</div>

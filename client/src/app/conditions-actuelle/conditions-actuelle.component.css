@@ -1,0 +1,19 @@
+*{
+        width: 100%;
+}
+
+.city{
+        border: 1px solid rgb(216, 216, 216);
+        width: 30%;
+        padding: 2%;
+        margin-right: 1%;
+}
+
+.bold{
+        font-weight: bold;
+}
+
+.citiesContainer{
+        display: flex;
+
+}
